@@ -1,0 +1,25 @@
+{
+  "name": "electron-quick-start",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon --exec electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrianLSH/electron-quick-start.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BrianLSH/electron-quick-start/issues"
+  },
+  "homepage": "https://github.com/BrianLSH/electron-quick-start#readme",
+  "description": "",
+  "devDependencies": {
+    "devtron": "^1.4.0",
+    "electron": "^22.1.0",
+    "electron-rebuild": "^3.2.9"
+  }
+}
