@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="975a6624-413c-4e27-847e-30323f6318cb" name="更改" comment="nodemon  预加载">
+    <list default="true" id="975a6624-413c-4e27-847e-30323f6318cb" name="更改" comment="预加载脚本">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/reload.js" beforeDir="false" afterPath="$PROJECT_DIR$/reload.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/render.js" beforeDir="false" afterPath="$PROJECT_DIR$/render.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,8 +88,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Node.js.electron debug">
+  <component name="RunManager" selected="Node.js.reload.js">
     <configuration name="electron debug" type="NodeJSConfigurationType" path-to-js-file="main.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="reload.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/reload.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <configuration name="render.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/render.js" working-dir="$PROJECT_DIR$">
@@ -96,10 +100,12 @@
     </configuration>
     <list>
       <item itemvalue="Node.js.electron debug" />
+      <item itemvalue="Node.js.reload.js" />
       <item itemvalue="Node.js.render.js" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.reload.js" />
         <item itemvalue="Node.js.render.js" />
       </list>
     </recent_temporary>
@@ -114,7 +120,7 @@
       <updated>1703556939196</updated>
       <workItem from="1703556943140" duration="11855000" />
       <workItem from="1703641538356" duration="152000" />
-      <workItem from="1703641706819" duration="5584000" />
+      <workItem from="1703641706819" duration="10824000" />
     </task>
     <task id="LOCAL-00001" summary="asd">
       <option name="closed" value="true" />
@@ -148,7 +154,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703647365015</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="预加载脚本">
+      <option name="closed" value="true" />
+      <created>1703647848928</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1703647848928</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,30 +172,7 @@
     <MESSAGE value="asd" />
     <MESSAGE value="nodemon 使用" />
     <MESSAGE value="nodemon  预加载" />
-    <option name="LAST_COMMIT_MESSAGE" value="nodemon  预加载" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/main.js</url>
-          <line>4</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="26" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/main.js</url>
-          <line>5</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="27" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/main.js</url>
-          <line>20</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="28" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="预加载脚本" />
+    <option name="LAST_COMMIT_MESSAGE" value="预加载脚本" />
   </component>
 </project>
