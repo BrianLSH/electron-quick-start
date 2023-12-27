@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="975a6624-413c-4e27-847e-30323f6318cb" name="更改" comment="nodemon 使用">
+    <list default="true" id="975a6624-413c-4e27-847e-30323f6318cb" name="更改" comment="nodemon  预加载">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reload.js" beforeDir="false" afterPath="$PROJECT_DIR$/reload.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +114,7 @@
       <updated>1703556939196</updated>
       <workItem from="1703556943140" duration="11855000" />
       <workItem from="1703641538356" duration="152000" />
-      <workItem from="1703641706819" duration="5095000" />
+      <workItem from="1703641706819" duration="5584000" />
     </task>
     <task id="LOCAL-00001" summary="asd">
       <option name="closed" value="true" />
@@ -137,7 +140,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703561631167</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="nodemon  预加载">
+      <option name="closed" value="true" />
+      <created>1703647365015</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1703647365015</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,7 +157,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="asd" />
     <MESSAGE value="nodemon 使用" />
-    <option name="LAST_COMMIT_MESSAGE" value="nodemon 使用" />
+    <MESSAGE value="nodemon  预加载" />
+    <option name="LAST_COMMIT_MESSAGE" value="nodemon  预加载" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -165,7 +177,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/main.js</url>
-          <line>19</line>
+          <line>20</line>
           <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="28" />
         </line-breakpoint>

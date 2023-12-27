@@ -6,7 +6,8 @@ const createWindow = ()=>{
         width:800,
         height:800,
       webPreferences:{
-            preload: path.resolve(__dirname, './reload.js')
+            preload: path.resolve(__dirname, './reload.js'),
+            nodeIntegration: true // 让预加载脚本可以使用node权限
       }
     })
     mainWindow.loadFile(path.resolve(__dirname,'index.html'))
