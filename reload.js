@@ -2,7 +2,7 @@ const fs = require('fs')
 
 // console.log('prelaod')
 const {ipcRenderer,contextBridge} = require('electron')
-// 预加载脚本可以获取dom 通过适合放在渲染进程 各司其事  预加载脚本负责通信
+// 预加载脚本可以获取dom、操作dom 通过适合放在渲染进程 各司其事  预加载脚本负责通信
 window.addEventListener('DOMContentLoaded', ()=>{
     let ele = document.getElementById('test')
     // console.log(ele)
